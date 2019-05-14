@@ -32,7 +32,6 @@
 							<target name="Stop Tomcat">
 								<echo message="Stopping Tomcat server"/>
 									<arg value="${tomcatLocation}/bin/shutdown.sh"/>
-								</exec>
 							</target>
 						</configuration>
 						<goals>
@@ -59,7 +58,6 @@
 							<target name="Start Tomcat">
 								<echo message="Starting Tomcat server"/>
 									<arg value="${tomcatLocation}/bin/startup.sh"/>
-								</exec>
 							</target>
 						</configuration>
 						<goals>
